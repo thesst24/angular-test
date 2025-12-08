@@ -1,0 +1,14 @@
+.con {
+    max-width:1440px;
+    display: flex;
+    height: 1198px;
+    margin: 0 auto;
+    background-color: #9197B3;
+    .sidemenu {
+        width: 306px;
+        height: 1198px;
+    }
+    .main {
+        width: 100%;
+    }
+}
