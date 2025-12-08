@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { LucideAngularModule, ChevronDown } from "lucide-angular";
+import { LucideAngularModule, ChevronDown,Users,ArrowUp } from "lucide-angular";
 
 @Component({
   selector: 'app-main',
@@ -9,4 +9,6 @@ import { LucideAngularModule, ChevronDown } from "lucide-angular";
 })
 export class Main {
   ChevronDown = ChevronDown;
+  Users = Users;
+  ArrowUp = ArrowUp;
 }

@@ -32,17 +32,42 @@
         background-color: var(--bg-box);
         margin-top: 39px;
         padding: 35px 50px;
+        border-radius: 30px;
         .widget {
             width: 274px;
             border-right: 1px solid #F0F0F0;
             display: flex;
             padding:0 57px;
+            gap: 20px;
+            .icon-top {
+                width: 84px;
+                height: 84px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50% ;
+                background-image: linear-gradient(to bottom, #d3ffe7, #effff6);
+            }
+            .info-widget {
+                p {
+                    font-size: 14px;
+                    color: #acacac;
+                }
+                h6 {
+                    font-size: 32px;
+                    color: #333;
+                    font-weight: 600;
+                }
+                .up-customer {
+                    display: flex;
+                }
+            }
         }
         .widget:last-child {
             border-right: none;
         }
         .widget:first-child {
-            padding: 0;
+            padding-left: 0;
         }
     }
 }
