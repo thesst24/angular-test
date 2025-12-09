@@ -1,23 +1,20 @@
 .container {
-    padding: 35px 25px 75px;
+    padding: 35px 28px 75px;
     background-color: var(--bg-box);
-    height: 1198px;
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     .title {
         display: flex;
+        gap: 13px;
         width: 195px;
         height: 40px;
         align-items: center; 
         p {
             font-size: 26px;
             font-weight: bold;
-        }
-        span {
-            font-size: 10px;
-            margin-left: 5px;
         }
     }
     .side-menu {
@@ -36,6 +33,7 @@
             .menu-title {
                 display: flex;
                 gap: 16px;
+                align-items: center;
             }
             p {
                 font-size: 14px;

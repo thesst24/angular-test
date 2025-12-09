@@ -1,0 +1,31 @@
+ <div class="all-customer">
+        <div class="header-customer">
+            <div class="left-hc">
+                <h6>All Customers</h6>
+                <p>Active Members</p>
+            </div>
+            <div class="right-hc">
+                <input type="text" placeholder="Search">
+                <div class="shortby">
+                    <p>Short by :</p>
+                    <h6>Newest</h6>
+                    <i-lucide [img]="ChevronDown" color="#3d3c42" size="19"></i-lucide>
+                </div>
+            </div>
+        </div>
+
+        <div class="infomation">
+            <table>
+                <tr>
+                    <td *ngFor="let head of headerData" class="header-info">
+                        {{head.label}}
+                    </td>
+                </tr>
+                <tr *ngFor="let cus of dataCustomer">
+                    <td *ngFor="let head of headerData" class="info-cus">
+                        {{cus[head.key]}}
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>

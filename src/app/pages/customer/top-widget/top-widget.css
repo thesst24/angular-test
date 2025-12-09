@@ -1,44 +1,17 @@
-.container {
-    padding: 40px 71px;
-    background-color: #F5F5F5;
-    height: 1198px;
-    .header {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        p{
-            font-size: 24px;
-            color: #000;
-            font-weight: 500;
-        }
-        .search {
-            height: 38px;
-            input[type=text] {
-                background: url('https://cdn-icons-png.flaticon.com/512/54/54481.png') no-repeat 10px;
-                background-color: var(--bg-box);
-                background-size: 24px 24px;
-                padding: 15px 41px 13px;
-                border-radius: 12px;
-                font-size: 14px;
-                outline: none;
-                border: none;
-            }
-        }
-    }
-    .top-widget {
+.top-widget {
         display: flex;
         height: 151px;
+        gap: 55px;
         width: 100%;
         background-color: var(--bg-box);
-        margin-top: 39px;
         padding: 35px 50px;
         border-radius: 30px;
+        width: 100%;
         .widget {
             width: 274px;
             border-right: 1px solid #F0F0F0;
+            gap: 19px;
             display: flex;
-            padding:0 57px;
-            gap: 20px;
             .icon-top {
                 width: 84px;
                 height: 84px;
@@ -49,8 +22,10 @@
                 background-image: linear-gradient(to bottom, #d3ffe7, #effff6);
             }
             .info-widget {
+                
                 p {
                     font-size: 14px;
+                    word-break: wrap;
                     color: #acacac;
                 }
                 h6 {
@@ -60,14 +35,18 @@
                 }
                 .up-customer {
                     display: flex;
+                    align-items: center;
+                }
+                .up-icon img {
+                    width: 26px;
+                    height: 26px;
+                    border-radius: 50%;
+                    border: 1px solid #fff;
                 }
             }
         }
         .widget:last-child {
             border-right: none;
-        }
-        .widget:first-child {
-            padding-left: 0;
+            padding-right: 0;
         }
     }
-}

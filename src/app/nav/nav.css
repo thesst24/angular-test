@@ -1,0 +1,24 @@
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color:#4469ff;
+        p{
+            font-size: 24px;
+            color: #000;
+            font-weight: 500;
+        }
+        .search {
+            height: 38px;
+            input[type=text] {
+                background: url('https://cdn-icons-png.flaticon.com/512/54/54481.png') no-repeat 10px;
+                background-color: var(--bg-box);
+                background-size: 24px 24px;
+                padding: 15px 41px 13px;
+                border-radius: 12px;
+                font-size: 14px;
+                outline: none;
+                border: none;
+            }
+        }
+    }

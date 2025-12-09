@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    .paga-info-cus {
+        display: flex;
+        width: 271px;
+        height: 24px;
+        gap: 11px;
+        a {
+            width: 26px;
+            height: 24px;
+            border-radius: 4px;
+            color: #404B52;
+            background-color: #5932EA;
+            text-align: center;
+            text-decoration: none;
+        }
+    }
+}

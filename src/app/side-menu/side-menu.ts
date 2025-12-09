@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
-import { LucideAngularModule, ChevronDown, ChevronRight } from 'lucide-angular';
+import { LucideAngularModule, ChevronDown, ChevronRight, KeyRound
+  ,Box, User, BanknoteArrowUp, BadgePercent, MessageCircleQuestionMark,
+  Settings
+ } from 'lucide-angular';
 
 @Component({
   selector: 'app-side-menu',
@@ -10,4 +13,11 @@ import { LucideAngularModule, ChevronDown, ChevronRight } from 'lucide-angular';
 export class SideMenu {
   ChevronDown = ChevronDown
   ChevronRight = ChevronRight
+  KeyRound = KeyRound
+  Box = Box
+  User = User
+  BanknoteArrowUp = BanknoteArrowUp
+  BadgePercent = BadgePercent
+  MessageCircleQuestionMark = MessageCircleQuestionMark
+  Settings = Settings
 }
