@@ -13,7 +13,6 @@
         height: 100vh;
         display: flex;
         flex-direction: column;
-        gap: 39px;
         padding: 39px 95px 78px 71px;
         .main {
             height: 100vh;

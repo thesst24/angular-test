@@ -1,6 +1,11 @@
 .container {
     display: flex;
     justify-content: space-between;
+    margin: 32px 0 40px;
+    .bottom-info-cus p {
+        color: #B5B7C0;
+        font-size: 14px;
+    }
     .paga-info-cus {
         display: flex;
         width: 271px;
@@ -10,10 +15,11 @@
             width: 26px;
             height: 24px;
             border-radius: 4px;
-            color: #404B52;
-            background-color: #5932EA;
+            color: #404B52 ;
+            background-color: #f5f5f5;
             text-align: center;
             text-decoration: none;
+
         }
     }
 }
